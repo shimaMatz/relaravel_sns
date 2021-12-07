@@ -38,7 +38,7 @@ class ArticleController extends Controller
                     'name' => 'ユーサー名3',
                 ],
             ],
-        ],
-        return view('article.index', ['articles' => $articles]);
+        ];
+        return view('articles.index', ['articles' => $articles]);
     }
 }
